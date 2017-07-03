@@ -1,0 +1,8 @@
+.row
+  .small-5.large-5.columns(*ngFor='let movie of movies').center-cols
+    .card(style='width: 400px;')
+      .card-divider
+        h4 {{movie.actors}}
+      .card-section
+        p {{movie.synopsis}}
+
